@@ -1,0 +1,35 @@
+.header {
+  &-primary-mobile {
+    ul {
+      color: $white;
+      font-size: 32px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: baseline;
+      width: 242px;
+      height: 30px;
+      border: 1px solid $white;
+    }
+
+    form ::placeholder {
+      color: $white;
+      font-size: 12px;
+    }
+
+    form input {
+      background: none;
+      border: none;
+    }
+
+    form button {
+      font-size: 14px;
+      color: $white;
+      background: none;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.header {
+  &-search form {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    border: 1px solid $gray-primary;
+  }
+
+  &-search ::placeholder {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: $brand-primary;
+    font-size: 16px;
+  }
+
+  &-search input {
+    width: 254px;
+    height: 35px;
+    background: none;
+    border: none;
+  }
+
+  &-search button {
+    background: none;
+    border: none;
+  }
+}

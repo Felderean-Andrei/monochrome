@@ -1,0 +1,71 @@
+.header {
+  &-secondary {
+    margin: 10px 0;
+
+    @include media-breakpoint-up(lg) {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-family: Playfair Display;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    ul {
+      gap: 26px;
+      font-size: 24px;
+
+      @include media-breakpoint-up(lg) {
+        gap: 32px;
+        font-size: 26px;
+        padding: 0 106px;
+
+        .header-search {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  &-primary {
+    background-color: $brand-primary;
+    height: 48px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    &-secondary {
+      height: 500px;
+      background: $gray-primary url('/images/banners/banner.png') no-repeat
+        center center / cover;
+
+      .header-social-media {
+        margin-top: 36px;
+        font-size: 18px;
+      }
+
+      .header-controls {
+        margin-top: 36px;
+      }
+
+      .header-contact {
+        font-family: Playfair Display;
+        text-transform: uppercase;
+      }
+    }
+
+    &-connect {
+      color: $white;
+    }
+
+    &-primary {
+      display: flex;
+      align-items: center;
+      color: $brand-secondary;
+      font-family: Playfair Display;
+      font-size: 19px;
+      text-transform: uppercase;
+    }
+  }
+}
