@@ -1,0 +1,102 @@
+.footer {
+  background-color: $brand-secondary;
+
+  @include media-breakpoint-up(lg) {
+    height: 252px;
+  }
+
+  &-inner {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    color: $brand-primary;
+    padding-top: 25px;
+
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+      text-transform: lowercase;
+      padding-top: 40px;
+    }
+  }
+
+  &-contact {
+    @include media-breakpoint-up(lg) {
+      font-family: Playfair Display;
+      font-size: 22px;
+      line-height: 37px;
+    }
+  }
+
+  &-social {
+    ul {
+      display: flex;
+      justify-content: center;
+      font-size: 28px;
+      gap: 20px;
+
+      @include media-breakpoint-up(lg) {
+        justify-content: flex-start;
+        font-size: 24px;
+        gap: 14px;
+      }
+    }
+
+    h1 {
+      font-family: Playfair Display;
+      font-size: 22px;
+      margin-top: 20px;
+    }
+  }
+
+  &-nav {
+    margin-bottom: 31px;
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+    }
+
+    &-title {
+      h1 {
+        font-family: Playfair Display;
+        font-size: 22px;
+      }
+    }
+
+    &-line {
+      border: 1px solid $brand-primary;
+      height: 148px;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      font-size: 16px;
+      text-transform: lowercase;
+      line-height: 38px;
+      gap: 28px;
+
+      @include media-breakpoint-up(lg) {
+        flex-direction: row;
+        font-family: playfair display;
+        font-size: 22px;
+        line-height: 37px;
+        gap: 168px;
+      }
+    }
+
+    &-terms {
+      ul {
+        h2 {
+          font-size: 14px;
+          font-weight: 300;
+          font-style: italic;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

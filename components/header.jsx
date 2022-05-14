@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header>
+    <header className="header">
       <section className="header-secondary">
         <div className="header-secondary-inner container d-flex justify-content-between align-items-center">
           <h1 className="d-block d-lg-none">monochrome</h1>

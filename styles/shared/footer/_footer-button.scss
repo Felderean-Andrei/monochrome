@@ -1,0 +1,13 @@
+.footer-connect button {
+  font-family: 'Roboto';
+  border: 1px solid $brand-primary;
+  text-transform: uppercase;
+  background-color: $brand-secondary;
+  width: 75px;
+  font-size: 12px;
+  margin: 20px 0 16px 0;
+
+  @include media-breakpoint-up(lg) {
+    margin: 8px 0 20px 0;
+  }
+}
