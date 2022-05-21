@@ -67,7 +67,7 @@ export default function Main() {
 
         <section className="home-catalog-preview">
           <header className="home-catalog-title">
-            <h1>Men's</h1>
+            <h1>Mens</h1>
           </header>
 
           <div className="d-none d-lg-block">
@@ -97,7 +97,7 @@ export default function Main() {
 
         <section className="home-catalog-preview">
           <header className="home-catalog-title">
-            <h1>Women's</h1>
+            <h1>Womens</h1>
           </header>
 
           <div className="d-none d-lg-block">

@@ -119,14 +119,14 @@ export default function Footer() {
 
         <section className="footer-connect">
           <div className="footer-newsletter">
-            <h1 className="d-block d-lg-none">Let's connect</h1>
+            <h1 className="d-block d-lg-none">Lets connect</h1>
 
             <form>
-              <label for="email" className="d-none d-lg-block">
+              <label htmlFor="email" className="d-none d-lg-block">
                 Sign up for our newsletter
               </label>
 
-              <label for="email" className="d-block d-lg-none">
+              <label htmlFor="email" className="d-block d-lg-none">
                 Be the first to receive exclusives offers
               </label>
 
@@ -142,7 +142,7 @@ export default function Footer() {
                 Submit
               </button>
 
-              <label for="email" className="d-block d-lg-none">
+              <label htmlFor="email" className="d-block d-lg-none">
                 I agree with {''}
                 <a href="" title="Privacy Policy">
                   Privacy Policy
