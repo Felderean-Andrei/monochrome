@@ -1,0 +1,18 @@
+.home-catalog-preview footer {
+  display: flex;
+  justify-content: center;
+
+  .cta {
+    font-size: 12px;
+    color: $brand-primary;
+    border: 1px solid $brand-primary;
+    padding: 6px 14px;
+    margin-bottom: 40px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 22px;
+      padding: 10px 16px 8px 16px;
+      margin-bottom: 120px;
+    }
+  }
+}

@@ -19,6 +19,14 @@
 
 @import './shared/index';
 
+// homepage
+
+@import './homepage/index';
+
+// catalog
+
+@import './catalog/index';
+
 body {
   font-family: 'Roboto', 'sans-serif';
   color: $brand-primary;

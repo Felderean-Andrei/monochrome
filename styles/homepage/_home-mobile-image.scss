@@ -1,0 +1,21 @@
+.home-mobile-image {
+  text-align: right;
+
+  img {
+    position: relative;
+    width: 100%;
+  }
+
+  .cta {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 1px solid $brand-primary;
+    background-color: $white;
+    padding: 2px 12px;
+    margin-top: 236px;
+    margin-right: 36px;
+  }
+}
