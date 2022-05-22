@@ -3,6 +3,11 @@
 
   @include media-breakpoint-up(lg) {
     height: 252px;
+
+    a:hover {
+      text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+    }
   }
 
   &-inner {
@@ -67,6 +72,7 @@
 
     &-line {
       border: 1px solid $brand-primary;
+      background-color: $brand-primary;
       height: 148px;
     }
 
@@ -90,7 +96,7 @@
 
     &-terms {
       ul {
-        h2 {
+        a {
           font-size: 14px;
           font-weight: 300;
           font-style: italic;

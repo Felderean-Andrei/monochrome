@@ -107,11 +107,23 @@ export default function Footer() {
           <div className="footer-nav-terms mt-5 mt-lg-0">
             <ul>
               <li>
-                <h2 className="d-block d-lg-none">terms & conditions</h2>
+                <a
+                  href=""
+                  title="Terms and Conditions"
+                  className="d-block d-lg-none"
+                >
+                  terms & conditions
+                </a>
               </li>
 
               <li>
-                <h2 className="d-block d-lg-none">privacy & coockies</h2>
+                <a
+                  href=""
+                  title="Privacy and Coockies"
+                  className="d-block d-lg-none"
+                >
+                  privacy & coockies
+                </a>
               </li>
             </ul>
           </div>

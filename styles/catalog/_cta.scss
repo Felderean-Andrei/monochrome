@@ -13,6 +13,27 @@
       font-size: 22px;
       padding: 10px 16px 8px 16px;
       margin-bottom: 120px;
+      background-color: $white;
+      color: $brand-primary;
+      border: 1px solid $brand-primary;
+
+      &::after,
+      &::before {
+        content: '';
+        width: 16px;
+        height: 1px;
+        margin: 6px;
+        display: inline-block;
+        background-color: $brand-primary;
+        transition: width 0.6s ease-in-out;
+      }
+
+      &:hover {
+        &::before,
+        &::after {
+          width: 40px;
+        }
+      }
     }
   }
 }

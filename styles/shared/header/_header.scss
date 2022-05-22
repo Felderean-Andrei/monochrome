@@ -66,6 +66,14 @@
       font-family: Playfair Display;
       font-size: 19px;
       text-transform: uppercase;
+
+      a {
+        position: relative;
+
+        &:hover {
+          top: -2px;
+        }
+      }
     }
   }
 }
