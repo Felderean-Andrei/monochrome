@@ -122,7 +122,7 @@ export default function Footer() {
                   title="Privacy and Coockies"
                   className="d-block d-lg-none"
                 >
-                  privacy & coockies
+                  privacy & cookies
                 </a>
               </li>
             </ul>
