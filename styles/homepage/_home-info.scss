@@ -14,11 +14,11 @@
 
   &-image {
     img {
-      width: 630px;
       border: 1px solid $brand-primary;
       background-color: $brand-primary;
 
       @include media-breakpoint-up(lg) {
+        width: 630px;
         border: none;
       }
     }
