@@ -33,7 +33,7 @@ export default function Main() {
             </section>
           </div>
 
-          <section className="product-tiles-mobile d-flex justify-content-between mt-3 mb-4 d-block d-lg-none">
+          <section className="product-tiles-mobile d-flex justify-content-around gap-3 mt-3 mb-4 d-block d-lg-none">
             <ProductTile></ProductTile>
 
             <ProductTile></ProductTile>
@@ -58,7 +58,7 @@ export default function Main() {
             </section>
           </div>
 
-          <section className="product-tiles-mobile d-flex justify-content-between mt-3 mb-5 d-block d-lg-none">
+          <section className="product-tiles-mobile d-flex justify-content-around gap-3 mt-3 mb-5 d-block d-lg-none">
             <ProductTile></ProductTile>
 
             <ProductTile></ProductTile>
@@ -84,7 +84,7 @@ export default function Main() {
             </section>
           </div>
 
-          <section className="product-tiles-mobile d-flex justify-content-between mt-3 mb-4 d-block d-lg-none">
+          <section className="product-tiles-mobile d-flex justify-content-around gap-3 mt-3 mb-4 d-block d-lg-none">
             <ProductTile></ProductTile>
 
             <ProductTile></ProductTile>
@@ -114,7 +114,7 @@ export default function Main() {
             </section>
           </div>
 
-          <section className="product-tiles-mobile d-flex justify-content-between mt-3 mb-4 d-block d-lg-none">
+          <section className="product-tiles-mobile d-flex justify-content-around gap-3 mt-3 mb-4 d-block d-lg-none">
             <ProductTile></ProductTile>
 
             <ProductTile></ProductTile>
